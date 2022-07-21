@@ -5,4 +5,5 @@ function concatener(c)
 
     document.getElementById("nom_prenom").value = (`je m'appelle ${nom} ${prenom}`)
  }
+ 
 
