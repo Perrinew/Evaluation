@@ -8,5 +8,5 @@ function updateDisplay(event) {
 }
 
 box.addEventListener("mousemove", updateDisplay, false); 
-box.addEventListener("mouseenter", updateDisplay, false);
-box.addEventListener("mouseleave", updateDisplay, false);
+//box.addEventListener("mouseenter", updateDisplay, false);
+//box.addEventListener("mouseleave", updateDisplay, false);
