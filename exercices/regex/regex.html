@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Formulaire d'ajout d'email</title>
+    <title>Formulaire</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/exercices/regex/regex.css">
     
   </head>
   <body>
-    <h1>Ajouter une adresse e-mail</h1>
-
+    <h1>RegEx</h1>
+<fieldset>
     <form id="myForm">
+      <label for="email">Email:</label>
+      <br>
       <input id="email" type="email" placeholder="email">
+      <br>
+      <small id="message1"></small>
       <br><br>
-      <p id="message1"></p>
+      <label for="password">Mot de passe:</label>
+      <br>
+      <input id="password" type="password" placeholder="mot de passe">
+      <br>
+      <small id="message2"></small>
       <br><br>
-      <input id="password" type="password">
-      <br><br>
-      <p id="message2"></p>
-      <br><br>
+      <label for="datedenaissance">Date de naissance:</label>
+      <br>
+      <input id="datedenaissance" type="text" placeholder="JJ/MM/AAAA">
+      <br>
+      <small id="message3"></small>
+      <br>
+      <br>
+      <br>
       <input type="submit" value="valider" />
      
     </form>
-
+  </fieldset>
     
 <script src="/exercices/regex/regex.js"></script>
   </body>
